@@ -1,0 +1,18 @@
+Here’s a comparison of Stack and Native Stack in tabular format, highlighting their differences and similarities:
+
+Aspect	Stack	Native Stack	Similarities
+Definition	A general-purpose data structure that follows LIFO (Last In, First Out).	A specialized stack used by the operating system for managing function calls.	Both are linear data structures that follow the LIFO principle.
+Usage	Used in algorithms, applications, and programming tasks.	Used by the OS to manage function calls, local variables, and return addresses.	Both are used to store and manage data in a structured way.
+Memory Management	Managed by the program or application.	Managed by the operating system or runtime environment.	Both rely on memory allocation and deallocation for their operations.
+Scope	Can be implemented in any programming language or application.	Specific to the execution environment of a program (e.g., call stack in C/C++).	Both are used to store temporary data during execution.
+Content	Stores generic data (e.g., integers, objects, etc.).	Stores function call details (e.g., return addresses, local variables, etc.).	Both store data in a sequential manner.
+Implementation	Can be implemented using arrays, linked lists, or other structures.	Implemented by the OS or runtime environment, often using hardware support.	Both rely on push and pop operations for data manipulation.
+Performance	Performance depends on the implementation (e.g., array vs. linked list).	Highly optimized for function call management, often hardware-assisted.	Both aim for efficient data storage and retrieval.
+Overflow/Underflow	Can occur if limits are exceeded (e.g., stack overflow).	Can occur if the call stack exceeds its allocated memory (e.g., stack overflow).	Both are susceptible to overflow and underflow conditions.
+Example	Used in algorithms like DFS, expression evaluation, etc.	Used in program execution to manage function calls and recursion.	Both are fundamental to program execution and data management.
+Key Takeaways:
+A stack is a general-purpose data structure, while a native stack is a specialized stack used by the OS for managing function calls.
+
+Both follow the LIFO principle and are used for temporary data storage.
+
+The native stack is tightly integrated with the OS and hardware, while a stack can be implemented in various ways depending on the application.
